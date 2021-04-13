@@ -46,7 +46,7 @@ class _MovieListState extends State<MovieList> {
                 leading:Image.network(imgPath + movies[position].posterPath),
                 title: Text(movies[position].originalTitle),
                 subtitle:
-                    Text('Rating = ' + movies[position].voteAverage.toString()),
+                    Text('Rating : ' + movies[position].voteAverage.toString()),
                 onTap: () {
                   MaterialPageRoute route = MaterialPageRoute(
                       builder: (_) => MovieDetail(movies[position]));
