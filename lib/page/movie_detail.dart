@@ -32,6 +32,7 @@ class MovieDetail extends StatelessWidget {
               ),
                Container(
                   child: Text("Rating : " + movie.voteAverage.toString()),
+                  alignment: Alignment.centerLeft,
                   padding: EdgeInsets.only(
                     left: 16,
                     right: 16,
